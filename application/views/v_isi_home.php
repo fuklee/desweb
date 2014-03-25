@@ -28,6 +28,5 @@
     <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
     <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
 </ol>
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
 
 
