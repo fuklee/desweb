@@ -13,8 +13,8 @@ and open the template in the editor.
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
 }
 
 h1, .h1,
@@ -23,10 +23,10 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
 }
 
 
@@ -35,9 +35,9 @@ h6, .h6 {
  */
 
 @media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
+    .container {
+        width: 970px;
+    }
 }
 
 
@@ -46,40 +46,40 @@ h6, .h6 {
  */
 
 .blog-masthead {
-  background-color: #428bca;
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+    background-color: #428bca;
+    box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
 /* Nav links */
 .blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #cdddeb;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-  color: #fff;
+    color: #fff;
 }
 .blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right:  5px solid transparent;
-  border-bottom: 5px solid;
-  border-left:   5px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right:  5px solid transparent;
+    border-bottom: 5px solid;
+    border-left:   5px solid transparent;
 }
 
 
@@ -88,18 +88,18 @@ h6, .h6 {
  */
 
 .blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
 }
 .blog-description {
-  font-size: 20px;
-  color: #999;
+    font-size: 20px;
+    color: #999;
 }
 
 
@@ -108,38 +108,39 @@ h6, .h6 {
  */
 
 .blog-main {
-  font-size: 18px;
-  line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-  padding: 15px;
-  margin: 0 -15px 15px;
+    padding: 15px;
+    margin: 0 -15px 15px;
+
 }
 .sidebar-module-inset {
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 
 
 /* Pagination */
 .pager {
-  margin-bottom: 60px;
-  text-align: left;
+    margin-bottom: 60px;
+    text-align: left;
 }
 .pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
 }
 
 
@@ -148,15 +149,15 @@ h6, .h6 {
  */
 
 .blog-post {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 .blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
+    margin-bottom: 5px;
+    font-size: 40px;
 }
 .blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
+    margin-bottom: 20px;
+    color: #999;
 }
 
 
@@ -165,9 +166,66 @@ h6, .h6 {
  */
 
 .blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+.width_600
+{
+    width: 600px;
+}
+.sidebar-right > li > a
+{
+    display: block;
+    padding: 4px 20px;
+    color: #999;
+    position: relative;
+}
+.sidebar-right > li:hover
+{
+    color: #333;
+    border-left: 1px solid #002166;
+}
+.sidebar-right > li:focus
+{
+    color: #333;
+    border-left: 1px solid #002166;
+}
+.sidebar-right > li > a
+{
+    text-decoration: none;
+    margin-left: 2px;
+}
+.sidebar-right > li.active 
+{
+    border-left: 1px solid #002166;
+}
+
+.blog-masthead
+{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.well
+{
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .05);
+}
+.fixed_right_50
+{
+    position: fixed !important;
+    top: 50px !important;
+}
+.blog-sidebar
+{
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    width: 300px;
 }
