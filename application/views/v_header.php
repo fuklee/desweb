@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-        <title>Blog Template for Bootstrap</title>
+        <title>Tugas Desweb Genap 2013-2014</title>
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap.css" rel="stylesheet">

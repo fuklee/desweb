@@ -57,6 +57,6 @@
     Ada dua jenis font yang digunakan di website Air Asia ini yaitu , Sans-serif dan Cursive. Font Sans-Serif adalah font yang tidak memiliki dekorasi pada ujungnya. Sedangkan Font Cursive adalah jenis font yang seperti tulisan manusia,  biasanya font ini digunakan untuk memperindah bagian tertentu dari dokumen.
     Pada gambar dibawah Font Sans-serif berada pada kotak hijau sedangkan Font jenis Cursive yang berada pada kotak biru. 
 </p>
-<img class="width_600" src="<?php echo base_url(); ?>bootstrap/images/airasia4.png"/>
+<img class="width_600" src="<?php echo base_url(); ?>bootstrap/images/airasia5.png"/>
 <br>
 
