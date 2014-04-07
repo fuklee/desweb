@@ -29,7 +29,7 @@
                         endif;
                     }
                     ?>
-                    <a class="blog-nav-item <?php check_aktif("home",$page); ?>" href="<?php echo site_url() ?>home">Air asia</a>
+                    <a class="blog-nav-item <?php check_aktif("airasia",$page); ?>" href="<?php echo site_url() ?>airasia">Air asia</a>
                     <a class="blog-nav-item <?php check_aktif("jetstar",$page); ?>" href="<?php echo site_url() ?>jetstar">Jetstar</a>
                     <a class="blog-nav-item <?php check_aktif("mandala-tiger",$page); ?>" href="<?php echo site_url() ?>mandala">Mandala-Tiger</a>
                 </nav>

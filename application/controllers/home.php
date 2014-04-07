@@ -11,9 +11,9 @@ class home extends CI_Controller {
         $this->load->helper('url');
     }
 
-    public function index() {
+    public function airasia() {
         $data = array();
-        $data['page'] = "home";
+        $data['page'] = "airasia";
         $this->load->view('v_header',$data);
 //        untuk kasih nama tiap view bagian isi nya tambahakan -isi- v_ISI_home!
         $this->load->view('v_isi_home');

@@ -38,9 +38,9 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "home/airasia";
 $route['404_override'] = '';
-$route['hello'] = 'home/hello';
+$route['airasia'] = 'home/airasia';
 $route['jetstar'] = 'home/jetstar';
 $route['mandala'] = 'home/mandala';
 
